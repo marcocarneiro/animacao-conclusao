@@ -18,4 +18,4 @@ O arquivo index.html tem uma atividade onde o usuário precisa clicar na respost
 dispara a animação de conclusão.
 
 ## Vantagens
-A animação é no formato vetorial, dessa forma não haverá perda de resolução se a área da animação for ampliada e o carregamento acontece no momento que o DOM é carregado.
+A animação é no formato vetorial, dessa forma não haverá perda de resolução se a área da animação for ampliada e o loading da animação acontece após o carregamento do DOM. Antes da conclusão da atividade a animação estará carregada pronta para rodar.
