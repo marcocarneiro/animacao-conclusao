@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- <meta name="authoring-tool" content="Adobe_Animate_CC"> -->
+<title>anim_finish</title>
+<link rel="stylesheet" href="conclusao_style.css">
+<style>	
+	body{
+		background-image: url('atividade-fundo.png');
+		background-size: cover;
+        margin-top: 16%;
+	}
+    #problema, #resposta{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bold;
+    }
+    #dica{
+        font-size: 18px;
+        color: #fff;
+    }
+    #demonstracao{
+        font-size: 80px;
+        color: rgb(250, 213, 6);
+        text-shadow: 2px 2px 2px solid #000;
+    }
+    #resposta{
+        margin-top: 20px;
+    }
+    #opc1, #opc2{
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px;
+        font-size: 40px;
+        color:#fff;
+        background-color: #f90;
+        margin: 20px;
+    }
+</style>
+
+</head>
+<body>
+	<div id="jogo">
+        <div id="problema">
+            <span id="dica">Clique no valor concatenado de 2 + 2</span><br>
+            <span id="demonstracao">2 + 2 = ?</span>
+        </div>
+        <div id="resposta">
+            <span id="opc1">4</span>
+            <span id="opc2">22</span>
+        </div>
+    </div>
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 0.00); width:1920px; height:1080px">
+		<canvas id="canvas" width="1920" height="1080" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1920px; height:1080px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+    </div>
+
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="anim_finish.js"></script>
+    <script src="conclusao_atividade.js"></script>
+
+    <!-- game -->
+    <script>
+        document.getElementById('opc2').addEventListener('click', function(){
+            play_animaconclusao();
+        });
+        document.getElementById('opc1').addEventListener('click', function(){
+            alert('OPÇÃO INCORRETA');
+        });     
+    </script>
+</body>
+</html>
