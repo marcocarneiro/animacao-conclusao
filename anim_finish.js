@@ -2865,7 +2865,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/anim_finish_atlas_1.png", id:"anim_finish_atlas_1"}
+		{src:"imgs_animac_finish/anim_finish_atlas_1.png", id:"anim_finish_atlas_1"}
 	],
 	preloads: []
 };

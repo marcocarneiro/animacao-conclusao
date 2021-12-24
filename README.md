@@ -1,7 +1,7 @@
 # Animação de conclusão
 Disparar animação em canvas com CreateJS após a conclusão de alguma tarefa. A animação foi construída com o Adobe Animate que renderiza em um arquivo javascript para exibição numa tag canvas
 ## Pastas e Arquivos
-- Pasta images - Contém as imagens geradas pelo Adobe Animate para a animação na tag canvas
+- Pasta imgs_animac_finish - Contém as imagens geradas pelo Adobe Animate para a animação na tag canvas
 - conclusao_style.css  - Estilização para o recipiente da animação
 - Arquivos JS obrigatórios para o funcionamento do processo (declarar antes de /body ) <br/> 
 Exemplo (os arquivos deverão ser carregados nessa ordem):<br/>
@@ -19,10 +19,7 @@ div id="finish_animation_container" style="background-color:rgba(255, 255, 255, 
 - Escreva o seu código, faça a sua atividade e quando precisar que a animação seja processada utilize o seguinte método: <br/>
 play_animaconclusao(); <br/>
 - Se for gerar uma nova animação pelo Adobe Animate renomeie todos os termos "animation_container" para "finish_animation_container"
-- Para uma melhor organização você pode utilizar uma subpasta como "finish_animation" e fazer o carregamento dos arquivos JS desssa forma:<br>
-<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script> <br/>
-<script src="finish_animation/anim_finish.js"></script> <br/>
-<script src="finish_animation/conclusao_atividade.js"></script> <br/>
+- Em uma atividade totalmente desenvolvida com o Adobe Animate é melhor incluir a aninação de conclusão dentro do mesmo arquivo dentro de um movieClip. Copie os frames e cole-os dentro do movieClip
 
 
 ## Exemplo
