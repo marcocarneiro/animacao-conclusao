@@ -1,7 +1,7 @@
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
-	anim_container = document.getElementById("animation_container");
+	anim_container = document.getElementById("finish_animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
 	var comp=AdobeAn.getComposition("DCE5704E030DD54499C26C1C513C51B2");
 	var lib=comp.getLibrary();
@@ -40,7 +40,7 @@ function handleComplete(evt,comp) {
 
 function play_animaconclusao()
 {
-    var recipiente_animac = document.getElementById('animation_container');
+    var recipiente_animac = document.getElementById('finish_animation_container');
     recipiente_animac.style.display = 'block';
     exportRoot.gotoAndPlay(1);
 }
