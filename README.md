@@ -15,7 +15,7 @@ Exemplo (os arquivos deverão ser carregados nessa ordem):<br/>
 		<canvas id="canvas" width="1920" height="1080" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1920px; height:1080px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
-    </div>
+    </div><br />
 - Escreva o seu código, faça a sua atividade e quando precisar que a animação seja processada utilize o seguinte método: <br/>
 play_animaconclusao(); <br/>
 - Se for gerar uma nova animação pelo Adobe Animate renomeie todos os termos "animation_container" para "finish_animation_container"
